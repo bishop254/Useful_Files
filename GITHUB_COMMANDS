@@ -1,0 +1,36 @@
+check version of git
+# git --version
+
+configure user and email for author purposes
+# git config --global user.name "bishop254"
+# git config --global user.email "karanjachiuri@gmail.com"
+
+go to the file you want to track with git
+# git init
+
+Check if there has been changes and if they have been staged
+It will show you untracked files
+Shows successful commits info
+# git status
+
+Forward all changes to the staging area
+# git add .
+
+To commit a change with some extra info about the changes made
+# git commit -m "Extra info goes here"
+
+Shows the logs of changes made
+# git log
+
+Goes to a specific timeline of the project
+# git checkout <Commit_hash>
+
+To go to the master branch 
+# git checkout master 
+
+Create a new branch that is used for making changes that won't affect the master branch
+# git branch <branch_name>
+
+To list branches and also show what branch you a are on
+# git branch
+
